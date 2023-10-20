@@ -1,0 +1,24 @@
+{
+  "name": "dj-trip",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1",
+    "pinia": "^2.1.7",
+    "vant": "^4.7.2",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@vant/auto-import-resolver": "^1.0.1",
+    "@vitejs/plugin-vue": "^4.3.4",
+    "less": "^4.2.0",
+    "unplugin-vue-components": "^0.25.2",
+    "vite": "^4.4.9"
+  }
+}
