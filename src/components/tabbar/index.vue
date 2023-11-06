@@ -2,9 +2,9 @@
 import { ref } from "vue";
 const tabbarList = [
   { title: "首页", path: "/home", icon: "wap-home-o", activeIcon: "wap-home", badge: "" },
-  { title: "收藏", path: "/favor", icon: "like-o", activeIcon: "like", badge: "" },
-  { title: "订单", path: "/order", icon: "description-o", activeIcon: "description", badge: "" },
   { title: "消息", path: "/message", icon: "chat-o", activeIcon: "chat", badge: "10" },
+  { title: "订单", path: "/order", icon: "description-o", activeIcon: "description", badge: "" },
+  { title: "我的", path: "/my", icon: "contact-o", activeIcon: "contact", badge: "" },
 ];
 const currentPath = ref("/home");
 
