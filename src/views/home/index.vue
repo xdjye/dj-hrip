@@ -11,7 +11,9 @@ import SortNavBar from "./sortNavBar/index.vue";
 import useCityStore from "../../store/modules/city";
 import useHomeStore from "../../store/modules/home";
 import { getAssetsUrl } from "../../utils/loadAssets";
+import useScrollTouchBottom from "../../hooks/useScrollTouchBottom";
 
+const isBottom = useScrollTouchBottom();
 const cityStore = useCityStore();
 const { currentCityInfo } = storeToRefs(cityStore);
 
@@ -96,6 +98,7 @@ watch(currentCityInfo, (newVal, _Val) => {
     <SearchHotSuggersts/>
     <SortNavBar/>
     <HouseList/>
+    <div style="position: fixed;bottom: 0;left: 0;z-index: 9;">{{ isBottom ? '已触底' : '没触底' }}</div>
   </div>
 </template>
 

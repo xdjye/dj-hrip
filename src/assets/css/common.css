@@ -5,6 +5,8 @@
   --van-index-bar-index-active-color: var(--primary-color) !important;
   --van-index-anchor-sticky-text-color: var(--primary-color) !important;
   --van-index-anchor-text-color: var(--primary-color) !important;
+  --van-rate-icon-void-color: var(--primary-color) !important;
+  --van-rate-icon-full-color: var(--primary-color) !important;
 }
 
 body {
