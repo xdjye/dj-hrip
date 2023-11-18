@@ -3,7 +3,7 @@ import { computed, reactive, ref } from 'vue';
 import dayjs from "dayjs";
 import { formatMontDay, formatDayType } from '../../../utils/formatDate';
 
-const d_ = new Date();
+const d_ = new Date(); // 当前日期
 const dateShow = ref(false);
 const dates = reactive({
   startD: new Date(),
